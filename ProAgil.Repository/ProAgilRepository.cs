@@ -22,6 +22,7 @@ namespace ProAgil.Repository
         public void Update<T>(T entity) where T : class
         {
             _context.Update(entity);
+            _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public void Delete<T>(T entity) where T : class
