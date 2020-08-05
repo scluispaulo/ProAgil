@@ -59,7 +59,7 @@ namespace ProAgil.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]Evento model)
+        public async Task<IActionResult> Post(Evento model)
         {
             try
             {
@@ -76,7 +76,7 @@ namespace ProAgil.WebAPI.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put([FromBody]Evento model, [FromBody]int EventoId)
+        public async Task<IActionResult> Put(Evento model, int EventoId)
         {
             try
             {
@@ -97,7 +97,7 @@ namespace ProAgil.WebAPI.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> Delete([FromBody]int EventoId)
+        public async Task<IActionResult> Delete(int EventoId)
         {
             try
             {
