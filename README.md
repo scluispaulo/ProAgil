@@ -4,15 +4,15 @@ Projeto do curso: Seja Fullstack com Asp.NET Core Web API, Angular 7 & EF Core -
 
 Abordado:
 
-.NET Core
-    AutoMapper
-    Data Annotations
-    Identity (JWT)
-    Separação em camadas
+### .NET Core
+- AutoMapper
+- Data Annotations
+- Identity (JWT)
+- Separação em camadas
 
-Angular
-    Reactive Forms
-    Interpolação
-    Diretivas
-    Rotas
+### Angular:
+- Reactive Forms
+- Interpolação
+- Diretivas
+- Rotas
 
